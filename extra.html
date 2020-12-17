@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="ia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Extra | CRM</title>
+    <meta name="description" content="Reference information for Customer Relationship Management System.">
+    <link rel="shortcut icon" href="CRM.png"/>
+    <meta name="keywords" content="CRM, Customer Relationship Management, 
+    Contact Management, Sales Management, Customer Lifecycle, Marketing,
+    Digital Commerce, Customer Service"/>
+    <meta name="author" content="Yue Yun Low">
+
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <div class="topnav-group">
+            <a href="index.html" style="padding-top: 16px;" class="topnav-logo"><img src="CRM-white.png" alt="Customer Relationship Management" 
+                 style="max-width: 40px; max-height: 30px;"/>
+            </a>
+            <a href="index.html">Home</a>
+            <a href="introduction.html">Introduction</a>
+            <a href="benefits.html">Benefits</a>
+            <a href="choices.html">Choices</a>
+            <a href="extra.html">Extra</a>
+            <a href="author.html">Author</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsivenav";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+    </div>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <div class="crm-wrap">
+      <div class="wrap-content" style="padding: 4rem 0 10rem;">
+          <div class="wrap-container">
+              <div class="wrap-text">
+                  <h1>Further Readings</h1>
+                  <p>Reading Material 1: <a href="https://www.salesforce.com/crm/what-is-crm/" target="_blank">CRM 101: What is CRM?</a></p>
+                  <p>Reading Material 2: <a href="https://searchcustomerexperience.techtarget.com/definition/CRM-customer-relationship-management" target="_blank">CRM (customer relationship management)</a></p>
+                  <p>Reading Material 3: <a href="https://www.superoffice.com/blog/what-is-crm/" target="_blank">WHAT IS CRM? THE DEFINITIVE GUIDE TO CRM SUCCESS (STRATEGY, PROCESS, TRENDS)</a></p>
+                  <p>Relevant Materials: <a href="Individual Assignment_B200017A.rar" download>Click to download relevant materials.</a></p>
+                  
+              </div>
+          </div>
+      </div>
+    </div>
+        
+
+    <footer class="hero-footer">
+        <img src="CRM-char.png" alt="Customer Relationship Management" style="max-width: 60px; max-height: 50px;"/>
+        <p>Customer Relationship Management - Information - Created By Low Yue Yun @ 2020</p>
+    </footer>  
+</body>
+</html>
