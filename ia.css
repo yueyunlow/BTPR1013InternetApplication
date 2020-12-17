@@ -178,7 +178,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
   }
 }    
 
-@media screen and (min-width: 801px) and (max-width: 1366px) {
+@media screen and (min-width: 801px) {
   .hero-image {
     background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), 
     url("CustomerRelationshipManagement.png");
@@ -462,7 +462,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
   }
 }    
 
-@media screen and (min-width: 801px) and (max-width: 1366px) {
+@media screen and (min-width: 801px) {
   .hero-text {
     max-width: 430px;
     text-align: left;
